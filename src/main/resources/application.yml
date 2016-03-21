@@ -1,0 +1,7 @@
+# all Enviroment Settings
+server:
+    port: 9000
+
+logging:
+    level:
+        com.slgerkamp.retrofit.sample: DEBUG

@@ -13,7 +13,9 @@
 	<name>retrofit-sample</name>
 	<url>http://maven.apache.org</url>
 	<properties>
-	<java.version>1.8</java.version>
+		<java.version>1.8</java.version>
+		<retrofit2.groupId>com.squareup.retrofit2</retrofit2.groupId>
+		<retrofit2.version>2.0.0</retrofit2.version>
 	</properties>
 		
 	<!-- ================================================================ -->
@@ -34,11 +36,23 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>com.squareup.retrofit2</groupId>
+			<groupId>${retrofit2.groupId}</groupId>
 			<artifactId>retrofit</artifactId>
-			<version>2.0.0</version>
+			<version>${retrofit2.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>${retrofit2.groupId}</groupId>
+			<artifactId>converter-gson</artifactId>
+			<version>${retrofit2.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>2.6.2</version>
 		</dependency>
 	</dependencies>
+	
+	
 	
 	<!-- ================================================================ -->
 	<!--     plugin settings                                              -->

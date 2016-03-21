@@ -5,3 +5,6 @@ server:
 logging:
     level:
         com.slgerkamp.retrofit.sample: DEBUG
+
+api.access:
+    url: https://api.github.com

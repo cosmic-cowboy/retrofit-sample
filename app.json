@@ -1,0 +1,19 @@
+{
+  "name": "retrofit-sample",
+  "description": "Sample Application for retrofit",
+  "repository": "https://github.com/cosmic-cowboy/retrofit-sample",
+  "env": {
+    "SAMPLE_CHANNELID": {
+      "description": "Channel ID",
+      "required": true
+    },
+    "SAMPLE_CHANNELSECRET": {
+      "description": "Channel secret",
+      "required": true
+    },
+    "SAMPLE_CHANNELREDIRECTURL": {
+      "description": "Redirect URL",
+      "required": true
+    }
+  }
+}
